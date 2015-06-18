@@ -1,0 +1,27 @@
+
+    <%= image_tag "logo.jpg",  size:"200x200" %>
+<h1>Welcome to The Coding Project</h1>
+
+<h3>Pardon our dust--</h3>
+<br>
+
+    <%= image_tag "caution.jpg",  size:"200x200" %>
+    <br>
+We’ve been busy building something AWESOME.
+<br>
+
+We want to create an open and free community;  made  of  supportive, knowledgeable, and helpful engineers.
+
+<br>
+If you want to be kept up to date with what we’re up to, please submit your e-mail and we’ll keep you up to date.
+<br>
+
+<!-- http://stackoverflow.com/questions/11093848/rails-undefined-method-model-name-for-nilclassclass -->
+<%= simple_form_for @user do |f| %>
+  <%= f.input :name %>
+  <%= f.input :email %>
+  <%= f.button :submit %>
+<% end %>
+
+
+</div>
